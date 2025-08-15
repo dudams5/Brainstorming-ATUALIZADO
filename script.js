@@ -6,67 +6,67 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Como você reage sob pressão?",
+        enunciado: "Você trabalha?",
         alternativas: [
             {
-                texto: "Me mantenho no controle, fingindo que está tudo certo.",
-                afirmacao: "afirmação"
+                texto: "Não.",
+                afirmacao: "procure um emprego!"
             },
             {
-                texto: "Me apavoro, e as vezes não dou conta de resolver tudo.",
-                afirmacao: "afirmação"
+                texto: "Sim.",
+                afirmacao: "Procure saber seus direitos."
             }
         ]
     },
     {
-        enunciado: "Qual é pior de enfrentar em um atendimento público de saúde?",
+        enunciado: "Em uma entrevista de emprego, o que você mentiria sobre si?",
         alternativas: [
             {
-                texto: "Grosseria após pedir uma informação ou atendimento clínico",
-                afirmacao: "afirmação"
+                texto: "Nada, porque se eles não quisessem, eles que estariam perdendo.",
+                afirmacao: "estariam perdendo mesmo, estresse, incomodo entre outros."
             },
             {
-                texto: "Demora do atendimento, podendo durar de 15 minutos a 4,5 horas.",
-                afirmacao: "afirmação"
+                texto: "Mentiria que sei trabalhar muito bem em grupo.",
+                afirmacao: "Escolha boa, mas consequência ruim. (um emprego) KKK"
             }
         ]
     },
     {
-        enunciado: "Você acha que a culpa da falta de materiais, recursos e profissionais na área básica da saúde, é dos funcionarios ali inseridos ou do governo instituido pela população?",
+        enunciado: "PARABÉNS, você foi contratado(a), o que você faria no primeiro dia?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "afirmação"
+                texto: "Me atrasaria, e assinaria meu ponto como se tivesse chego no horario certo.",
+                afirmacao: "Seus colegas não gostaram de você."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "afirmação"
+                texto: "Chegaria no horario certo e tentaria ao maximo conseguir cumprir meu papel na empresa.",
+                afirmacao: "Seus colegas te aprovaram."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Três meses depois, seus colegas começaram a te encher de tarefas que são deles. O que você faz?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "afirmação"
+                texto: "Eu estou fazendo outras coisas. E não vou fazer o que você, pode muito bem fazer sozinho.",
+                afirmacao: "Impos respeito."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "afirmação"
+                texto: "Claro.",
+                afirmacao: "Seus colegas começaram a te ver como uma maquina. Se facilitar a vida deles, eles te farão de degrau"
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Um cliente gritou com você.",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "afirmação"
+                texto: "Revido no mesmo tom.",
+                afirmacao: "Foi demitido."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "afirmação"
+                texto: "Me acalmo e tento acalmar o cliente.",
+                afirmacao: "continuou na empresa. Após isso, o chefe vê que você tem domínio próprio e sobe seu cargo."
             }
         ]
     },
